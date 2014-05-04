@@ -48,6 +48,10 @@ public class LinkedList{
 			node = tmpNode.next;
 		}
 	}
+	
+	public void removeFirst(){
+	}
+	
 	public boolean remove (int index){
 		Node tmpNode = node;
 		if ( node == null ) return false;
